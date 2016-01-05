@@ -1,0 +1,71 @@
+Source: brew-meta
+Section: unknown
+Priority: optional
+Maintainer: c00clupea <c00clupea@gmail.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+Homepage: <insert the upstream URL, if relevant>
+Vcs-Git: https://github.com/BrewLinux/brew-meta.git
+Vcs-Browser: https://github.com/BrewLinux/brew-meta.git
+
+Package: brew-system
+Architecture: any
+Depends: brew-desktop,
+	 brew-internet,
+	 brew-vcs,
+	 brew-editors,
+	 brew-tools,
+	 ${shlibs:Depends}, ${misc:Depends}
+Description: Brew main system
+ This package contains all necessary and basic system packages
+
+Package: brew-desktop
+Architecture: all
+Depends: xorg,
+	 slim,
+	 mate-desktop-environment-core,
+	 menu,
+	 sudo,
+	 ${misc:Depends}
+Description: Standard Desktop Environment
+ This metapackage provides a standard desktop environment
+
+Package: brew-internet
+Architecture: all
+Depends: chromium,
+	 icedove,
+	 enigmail,
+	 wget,
+	 links,
+	 curl,
+	 ${misc:Depends}
+Description: Standard Desktop Internet Environment
+ This metapackage provides a standard desktop internet environment
+
+Package: brew-vcs
+Architecture: all
+Depends: git,
+	 gitk,
+	 git-gui,
+	 ${misc:Depends}
+Description: Standard Desktop VCS
+ This metapackage provides git and some git tools
+
+Package: brew-editors
+Architecture: all
+Depends: vim,
+	 name,
+	 emacs,
+	 ${misc:Depends}
+Description: Standard Desktop editors
+ This metapackage provides some editors
+
+Package: brew-tools
+Architecture: all
+Depends: htop,
+	 ethtool,
+	 usbutils,
+	 sudo,
+	 ${misc:Depends}
+Description: Standard Desktop tools
+ This metapackage provides some tools
