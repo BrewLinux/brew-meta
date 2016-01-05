@@ -1,0 +1,12 @@
+Package: brew-system
+Source: brew-meta
+Version: 1.0.0
+Architecture: amd64
+Maintainer: c00clupea <c00clupea@gmail.com>
+Installed-Size: 26
+Depends: brew-desktop, brew-internet, brew-vcs, brew-editors, brew-tools
+Section: unknown
+Priority: optional
+Homepage: <insert the upstream URL, if relevant>
+Description: Brew main system
+ This package contains all necessary and basic system packages

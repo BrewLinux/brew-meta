@@ -1,0 +1,12 @@
+Package: brew-tools
+Source: brew-meta
+Version: 1.0.0
+Architecture: all
+Maintainer: c00clupea <c00clupea@gmail.com>
+Installed-Size: 26
+Depends: htop, ethtool, usbutils, sudo
+Section: unknown
+Priority: optional
+Homepage: <insert the upstream URL, if relevant>
+Description: Standard Desktop tools
+ This metapackage provides some tools

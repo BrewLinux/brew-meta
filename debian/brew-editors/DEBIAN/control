@@ -1,0 +1,12 @@
+Package: brew-editors
+Source: brew-meta
+Version: 1.0.0
+Architecture: all
+Maintainer: c00clupea <c00clupea@gmail.com>
+Installed-Size: 26
+Depends: vim, name, emacs
+Section: unknown
+Priority: optional
+Homepage: <insert the upstream URL, if relevant>
+Description: Standard Desktop editors
+ This metapackage provides some editors

@@ -1,0 +1,12 @@
+Package: brew-desktop
+Source: brew-meta
+Version: 1.0.0
+Architecture: all
+Maintainer: c00clupea <c00clupea@gmail.com>
+Installed-Size: 26
+Depends: xorg, slim, mate-desktop-environment-core, menu, sudo
+Section: unknown
+Priority: optional
+Homepage: <insert the upstream URL, if relevant>
+Description: Standard Desktop Environment
+ This metapackage provides a standard desktop environment

@@ -1,0 +1,12 @@
+Package: brew-vcs
+Source: brew-meta
+Version: 1.0.0
+Architecture: all
+Maintainer: c00clupea <c00clupea@gmail.com>
+Installed-Size: 26
+Depends: git, gitk, git-gui
+Section: unknown
+Priority: optional
+Homepage: <insert the upstream URL, if relevant>
+Description: Standard Desktop VCS
+ This metapackage provides git and some git tools
