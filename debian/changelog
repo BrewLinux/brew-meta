@@ -3,7 +3,7 @@ brew-meta (1.0.1) unstable; urgency=medium
   * -debian builder stuff, just use the builder on your own
   * +any
 
- -- c00clupea <c00clupea@entwicklerbox>  Wed, 06 Jan 2016 19:56:44 +0100
+ -- c00clupea <c00clupea@gmail.com>  Wed, 06 Jan 2016 19:56:44 +0100
 
 brew-meta (1.0.0) unstable; urgency=low
 
