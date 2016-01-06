@@ -1,5 +1,5 @@
 Source: brew-meta
-Section: unknown
+Section: metapackages
 Priority: optional
 Maintainer: c00clupea <c00clupea@gmail.com>
 Build-Depends: debhelper (>= 9)
