@@ -54,7 +54,7 @@ Description: Standard Desktop VCS
 Package: brew-editors
 Architecture: any
 Depends: vim,
-	 name,
+	 nano,
 	 emacs,
 	 ${misc:Depends}
 Description: Standard Desktop editors
