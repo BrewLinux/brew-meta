@@ -20,7 +20,7 @@ Description: Brew main system
  This package contains all necessary and basic system packages
 
 Package: brew-desktop
-Architecture: all
+Architecture: any
 Depends: xorg,
 	 slim,
 	 mate-desktop-environment-core,
@@ -31,7 +31,7 @@ Description: Standard Desktop Environment
  This metapackage provides a standard desktop environment
 
 Package: brew-internet
-Architecture: all
+Architecture: any
 Depends: chromium,
 	 icedove,
 	 enigmail,
@@ -43,7 +43,7 @@ Description: Standard Desktop Internet Environment
  This metapackage provides a standard desktop internet environment
 
 Package: brew-vcs
-Architecture: all
+Architecture: any
 Depends: git,
 	 gitk,
 	 git-gui,
@@ -52,7 +52,7 @@ Description: Standard Desktop VCS
  This metapackage provides git and some git tools
 
 Package: brew-editors
-Architecture: all
+Architecture: any
 Depends: vim,
 	 name,
 	 emacs,
@@ -61,7 +61,7 @@ Description: Standard Desktop editors
  This metapackage provides some editors
 
 Package: brew-tools
-Architecture: all
+Architecture: any
 Depends: htop,
 	 ethtool,
 	 usbutils,
