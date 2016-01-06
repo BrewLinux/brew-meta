@@ -1,9 +1,15 @@
+brew-meta (1.0.2) unstable; urgency=medium
+
+  * -editor error
+
+ -- c00clupea <c00clupea@gmail.com>  Wed, 06 Jan 2016 20:11:56 +0100
+
 brew-meta (1.0.1) unstable; urgency=medium
 
   * -debian builder stuff, just use the builder on your own
   * +any
 
- -- c00clupea <c00clupea@entwicklerbox>  Wed, 06 Jan 2016 20:11:28 +0100
+ -- c00clupea <c00clupea@gmail.com>  Wed, 06 Jan 2016 20:11:28 +0100
 
 brew-meta (1.0.0) unstable; urgency=low
 
