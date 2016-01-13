@@ -69,3 +69,17 @@ Depends: htop,
 	 ${misc:Depends}
 Description: Standard Desktop tools
  This metapackage provides some tools
+
+Package: brew-java
+Architecture: all
+Depends: openjdk-7-jdk,
+	 ${misc:Depends}
+Description: Current java for brew +jdk
+ This package provides the jre and jdk
+
+Package: brew-java-8
+Architecture: all
+Depends: openjdk-8-jdk,
+	 ${misc:Depends}
+Description: java 8 for brew +jdk
+ This package provides the jre and jdk (you will need backports)
