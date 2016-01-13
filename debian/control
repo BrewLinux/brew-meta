@@ -83,3 +83,39 @@ Depends: openjdk-8-jdk,
 	 ${misc:Depends}
 Description: java 8 for brew +jdk
  This package provides the jre and jdk (you will need backports)
+
+Package: brew-c
+Architecture: all
+Depends: build-essential,
+	 autogen,
+	 automake,
+	 libtool,
+	 libglade2-dev,
+	 libgtk2.0-dev,
+	 libgtk2.0-doc,
+	 intltool,
+	 ${misc:Depends}
+Description: c,c++ compiler
+ This package provides compiler, make and so on for c and c++
+
+Package: brew-python
+Architecture: all
+Depends: python3,
+	 python-pip,
+	 ${misc:Depends}
+Description: python 3.4
+ This package provides python 3.4
+
+Package: brew-mono
+Architecture: all
+Depends: mono-complete,
+	 ${misc:Depends}
+Description: mono tools
+ This package provides mono
+
+Package: brew-nodejs
+Architecture: all
+Depends: nodejs,
+	 ${misc:Depends}
+Description: nodejs
+ This package provides nodejs and further things
