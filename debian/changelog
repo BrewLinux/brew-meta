@@ -1,3 +1,10 @@
+brew-meta (1.0.3) unstable; urgency=medium
+
+  * +beautify
+  * +jdk7,+jdk8
+
+ -- c00clupea <c00clupea@gmail.com>  Wed, 13 Jan 2016 14:35:34 +0100
+
 brew-meta (1.0.2) unstable; urgency=medium
 
   * -editor error
