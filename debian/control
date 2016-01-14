@@ -94,6 +94,7 @@ Depends: build-essential,
 	 libgtk2.0-dev,
 	 libgtk2.0-doc,
 	 intltool,
+	 gdb,
 	 ${misc:Depends}
 Description: c,c++ compiler
  This package provides compiler, make and so on for c and c++
